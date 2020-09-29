@@ -3,74 +3,86 @@
 <head>
 	<title>test</title>
 	<style type="text/css">
-		#section1{
-			background-color: black;
+			
+		body{
+			margin: 0;
+			padding: 0;
+			background: url("Endless-Constellation.svg");
+			z-index: -1;
+		}
+		.links {
+			position: fixed;
+			background-color: white;
+			width: 100%;
+			border-bottom:1px solid black;
+			padding-left: 10px;
+			}
+			.links li{
+				display: inline;
+				padding:10px;
+				font-size: 15px;
+			}
+			.links li:hover{
+				border-bottom: 1px solid black;
+			}
+			.links li a{
+				font-weight: bold;
+				color: black;
+				text-decoration: none;
+			}
+			#section1{
+			background: none;
 			color: white;
+			font-size: 20px;
+			word-spacing: 5px;
 			padding: 15px;
-		}
-		ul{
-			padding: 10px;
-		}
-		li{
-			padding: 8px;
-			margin-left: 20px;
-			display: inline;
-			background-color: purple;
-			border: 1px solid black;
-			border-radius: 10px;
-			color: black;
-
-		}
-		li:hover{
-			background-color: black;
-			color: white;
-		}
-		li a{
-			color: black;
-			text-decoration: none;
-			font-weight: bold;
-		}
-		li a:hover{
-			color: white;
-		}
+			}
 			#section2{
-			background-color: black;
+			background: none;
 			color: white;
+			font-size: 20px;
+			word-spacing: 5px;
 			padding: 15px;
-			margin-top: 15px;
-		}
+			}
 			#section3{
-			background-color: black;
+			background: none;
 			color: white;
+			font-size: 20px;
+			word-spacing: 5px;
 			padding: 15px;
-			margin-top: 15px;
-		}
+			}
 			#section4{
-			background-color: black;
+			background: none;
 			color: white;
+			font-size: 20px;
+			word-spacing: 5px;
 			padding: 15px;
-			margin-top: 15px;
-		}
+			}
 			#section5{
-			background-color: black;
+			background: none;
 			color: white;
+			font-size: 20px;
+			word-spacing: 5px;
 			padding: 15px;
-			margin-top: 15px;
-		}
+			}
 			#section6{
-			background-color: black;
+			background: none;
 			color: white;
+			font-size: 20px;
+			word-spacing: 5px;
 			padding: 15px;
-			margin-top: 15px;
-		}
+			}
 			#section7{
-			background-color: black;
+			background: none;
 			color: white;
+			font-size: 20px;
+			word-spacing: 5px;
 			padding: 15px;
-			margin-top: 15px;
-		}
+			}
+	
 		.gototop{
 			text-align: center;
+			opacity: 0.2
 		}
 		.gototop a{
 			display: block;
@@ -83,19 +95,23 @@
 	</style>
 </head>
 <body>
-	<h1>Ansuman Nayak</h1>
 	<section id="top">
-		
+		<div class="links">
+			<ul>
+				<li><a href="#section1">section1</a></li>
+				<li><a href="#section2">section2</a></li>
+				<li><a href="#section3">section3</a></li>
+				<li><a href="#section4">section4</a></li>
+				<li><a href="#section5">section5</a></li>
+				<li><a href="#section6">section6</a></li>
+				<li><a href="#section7">section7</a></li>
+			</ul>	
+		</div>
+		<div class="banner">
+			<img src="marvel-girl-wallpaper.png" height="750px" width="100%">
+		</div>	
 	</section>
-	<ul>
-		<li><a href="#section1">section1</a></li>
-		<li><a href="#section2">section2</a></li>
-		<li><a href="#section3">section3</a></li>
-		<li><a href="#section4">section4</a></li>
-		<li><a href="#section5">section5</a></li>
-		<li><a href="#section6">section6</a></li>
-		<li><a href="#section7">section7</a></li>
-	</ul>
+	
 	<section id="section1">
 		<img src="">
 		<h1>section 1 content 1</h1>
@@ -247,5 +263,10 @@
 	<div class="gototop">
 	<a href="#top" id="ansuman">go to top</a>
 	</div>
+	<section id="footer">
+		<div class="footer1">
+			<h4 style="text-align: center; color: white">Ansuman Nayak &copy2020 All rights reserved</h4>
+		</div>
+	</section>
 </body>
 </html>
