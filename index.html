@@ -14,16 +14,25 @@
 			position: fixed;
 			background-color: white;
 			width: 100%;
-			border-bottom:1px solid black;
-			padding-left: 10px;
+			border-bottom:0.1em solid black;
+			padding-left: 0.625px;
 			}
 			.links li{
 				display: inline;
 				padding:10px;
-				font-size: 15px;
+				font-size: 0.938em;
 			}
+			@media only screen and (max-width: 1000px) {
+ 			 .links li {
+ 			 	text-align: center;
+   			 display: none;
+ 			   padding:10px;
+ 			   font-size: 0.938em;
+ 			 }
+				}
+
 			.links li:hover{
-				border-bottom: 1px solid black;
+				border-bottom: 0.1em solid black;
 			}
 			.links li a{
 				font-weight: bold;
@@ -108,7 +117,11 @@
 			</ul>	
 		</div>
 		<div class="banner">
-			<img src="marvel-girl-wallpaper.png" height="750px" width="100%">
+			<video width="100%" height="840px;" autoplay>
+  <source src="Code_flythough_loop_01_Videvo.mov" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
 		</div>	
 	</section>
 	
